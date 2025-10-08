@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+# Використання: ./variant1.sh <DIR> <FILENAME>
+# Приклад:     ./variant1.sh testdata report
+
+if [ "$#" -ne 2 ]; then
+  echo "Usage: $0 <directory> <filename_without_extension>" >&2
+  exit 1
+fi
+
+dir="$1"
+filename="$2"
+
+if [ ! -d "$dir" ]; then
+  echo "Error: '$dir' is not a directory" >&2
+  exit 2
+fi
+
+
+{
+  while IFS= read -r -d '' file; do
+    dirname "$file"
+  done < <(find "$dir" -type f -name "${filename}.*" -print0)
+} | sort -u
