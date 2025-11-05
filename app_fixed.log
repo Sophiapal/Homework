@@ -1,0 +1,31 @@
+2025-11-05 10:12:01 ModuleA Init INFO Started successfully
+2025-11-05 10:12:02 ModuleB Load ERROR Low disk space
+2025-11-05 10:12:03 ModuleC Verify ERROR Invalid token
+2025-11-05 10:12:05 ModuleD Save FATAL Write failure
+2025-11-05 10:12:06 ModuleA Run NOTICE Background job started
+2025-11-05 10:12:07 ModuleX Check DEBUG Cache miss
+2025-11-05 10:12:08 ModuleY Read INFO Data received
+2025-11-05 10:12:09 ModuleB IO ERROR Retry read
+2025-11-05 10:12:10 ModuleC Parse TRACE Parsing message
+2025-11-05 10:12:11 ModuleA Run INFO User login
+2025-11-05 10:12:12 ModuleB Update ERROR Timeout
+2025-11-05 10:12:13 ModuleC Load ERROR Missing config
+2025-11-05 10:12:14 ModuleD Save INFO Preferences saved
+2025-11-05 10:12:15 ModuleA Stop INFO Session ended
+2025-11-05 10:12:16 ModuleB Init DEBUG Init params
+2025-11-05 10:12:17 ModuleC Verify ERROR Key expired
+2025-11-05 10:12:18 ModuleD Run ERROR Slow response
+2025-11-05 10:12:19 ModuleY Check DEBUG Sync completed
+2025-11-05 10:12:20 ModuleX Send NOTICE Notification sent
+2025-11-05 10:12:21 ModuleA Run INFO Button clicked
+2025-11-05 10:12:22 ModuleB IO ERROR File locked
+2025-11-05 10:12:23 ModuleC Read ERROR Read failure
+2025-11-05 10:12:24 ModuleD Write FATAL Disk full
+2025-11-05 10:12:25 ModuleX Stop INFO Service stopped
+2025-11-05 10:12:26 ModuleY Run DEBUG Check complete
+2025-11-05 10:12:27 ModuleA Load INFO App config loaded
+2025-11-05 10:12:28 ModuleB Call ERROR Deprecated API use
+2025-11-05 10:12:29 ModuleC Run INFO Heartbeat ok
+2025-11-05 10:12:30 ModuleD Send TRACE Send packet
+2025-11-05 10:12:31 ModuleX Open INFO Socket established
+2025-11-05 10:12:32 ModuleY Reset ERROR Service unstable
